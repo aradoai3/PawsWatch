@@ -1,0 +1,6 @@
+## Explicații pentru organizarea codului
+- main.cpp: Acesta este fișierul principal al proiectului, unde se inițializează senzorii, display-ul și motoarele. De asemenea, aici se află bucla principală care gestionează logica programului.
+- sensors.h și sensors.cpp: Aceste fișiere conțin funcțiile pentru inițializarea și citirea senzorilor (ultrasonic, DHT și nivelul apei).
+- display.h și display.cpp: Aceste fișiere conțin funcțiile pentru inițializarea și actualizarea display-ului LCD.
+- motors.h și motors.cpp: Aceste fișiere conțin funcțiile pentru inițializarea și controlul servomotorului și al motorului stepper.
+- config.h: Acest fișier conține toate definițiile de pini și constantele folosite în proiect.
